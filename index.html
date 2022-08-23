@@ -1,0 +1,98 @@
+<!-- especifica que es html -->
+<!DOCTYPE html>
+<html lang="es">
+<!-- head contener toda la informacion que vincula el sitio con el navegador -->
+
+<head>
+    <!-- utf Perimite utilizar todo tipo de caracteres -->
+    <meta charset="UTF-8">
+    <!-- compatible,con la adaptabilidad con los diferentes navegadores y tamaños de pantalla -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shorcut icon" href="./images/logosinu.png">
+
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Overpass:wght@100&family=Roboto&family=Roboto+Slab:wght@100;300&family=Volkhov&display=swap"
+        rel="stylesheet">
+
+    <title>Cerveceria del valle sinú</title>
+</head>
+
+<body class="grid">
+
+
+    <header>
+        <h2 class="titulos">
+            Cerveceria del valle sinú
+        </h2>
+        <img class="logo" src="./images/logosinu-modified.png" alt="logo" width="100px" height="130px">
+
+        <nav>
+            <!-- Lista no ordenada -->
+            <ul id="primeraLista" class="listas">
+                <li>
+                    Inicio
+                </li>
+                <li>
+                    <a href="./pages/SobreNosotros.html">Sobre nosotros</a>
+                </li>
+                <li>
+                    <a href="./pages/contacto.html">Contacto</a>
+                </li>
+                <li>
+                    <a href="./pages/galeria.html">Galeria</a>
+                </li>
+                <li>
+                    <a href="./pages/Productos.html">Productos</a>
+                </li>
+                <!-- <li><a href="https://www.coderhouse.com" target="_blank">Ir a coderhouse</a></li> -->
+            </ul>
+        </nav>
+
+    </header>
+
+
+
+    <main>
+        <img id="catalogo" src="./images/7-buenas-razones-para-tomar-cerveza.png" alt="catalogo de cervezas"
+            width="1250px" height="700px">
+        <p class="slogan">Maestria cervecera, <br> mezclando lo tradicional <br> con lo moderno.</p>
+    </main>
+
+    <article class="border" id="news">news</article>
+    <article class="border" id="promotions">promotions</article>
+    <article class="border" id="new_products">new products</article>
+
+
+
+    <!-- <h2>Previsualizacion de coderhouse</h2>
+    <iframe src="https://www.coderhouse.com" frameborder="0"></iframe> -->
+
+    <footer id="footer">
+
+            <ul id="segundaLista" class="footerList">
+                <h4>Siguenos en todas nuestras redes</h4>
+                <li>
+                    <a href="https://www.instagram.com/cerveceriadelvallesinu/?hl=es-la" target="_blank">
+                        <img src="./images/insta.png" alt="Instagram" width="30px" height="30px">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/cerveceriadelvallesinu/" target="_blank">
+                        <img src="./images/face.png" alt="Facebook" width="30px" height="30px">
+                    </a>
+                </li>
+
+            </ul>
+    </footer>
+
+</body>
+
+</html>
