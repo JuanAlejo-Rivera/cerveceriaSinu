@@ -164,8 +164,66 @@ footer h4 {
   position: relative;
   bottom: 30px;
 }
-/* ---Fin Footer--- */
 /* -------------------Fin grid Footer--- */
+
+/* Fin grid index------------------------------------ */
+
+/* Inicio grid about------------------------- */
+
+/* .gridAbout {
+  display: grid;
+  grid-template-areas:
+    "headerA"
+    "mainA"
+    "company"
+    "acknowledgments"
+    "footerG";
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, 1fr);
+  row-gap: 10px;
+}
+.borderG {
+  border: 2px solid;
+  color: black;
+}
+.headerAbout{
+  grid-area: headerA;
+}
+
+.mainAbout{
+  grid-area: mainA;
+}
+#AboutCompany{
+  grid-area: company;
+}
+#acknowledgments{
+  grid-area: acknowledgments;
+}
+.footerAbout {
+  grid-area: footerG;
+}
+.footerAbout .footerList {
+  display: flex;
+  list-style-type: none;
+  color: rgb(222, 215, 196);
+  background-color: rgb(0, 0, 0);
+  border-bottom: 03px solid rgb(234, 154, 39);
+  border-radius: 10px;
+  padding: 15px;
+}
+.footerAbout a {
+  position: relative;
+  top: 20px;
+  right: 300px;
+  margin: 5px;
+}
+.footerAbout h4 {
+  position: relative;
+  bottom: 30px;
+} */
+/* Fin grid about---------------------------- */
+
+
 
 /* ------Inicio Grid Galeery---- */
 .gridGallery {
