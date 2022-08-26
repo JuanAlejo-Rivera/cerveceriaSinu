@@ -64,7 +64,7 @@ main form {
   border-right: 03px solid rgb(234, 154, 39);
 }
 /* Inicio grid index------------------------------ */
-/* .grid {
+.grid {
   display: grid;
   grid-template-areas:
     "header header header"
@@ -81,31 +81,31 @@ main form {
 .border {
   border: 2px solid;
   color: black;
-} */
+}
 /* ---Inicio grid Header--- */
 
-/* header {
+header {
   grid-area: header;
   background-image: linear-gradient(to bottom, rgb(234, 154, 39), rgb(0, 0, 0), rgb(0, 0, 0));
   border-bottom: 03px solid rgb(234, 154, 39);
   padding: 26px;
   border-radius: 10px;
-} */
+}
 
-/* header nav {
+header nav {
   width: 50%;
   position: absolute;
   right: 495px;
   top: 80px;
-} */
+}
 
-/* header .listas {
+header .listas {
   display: flex;
   justify-content: space-evenly;
   padding-right: 1px;
-} */
+}
 
-/* header li {
+header li {
   display: none;
   width: auto;
   list-style: none;
@@ -113,19 +113,19 @@ main form {
   text-decoration: none;
   font-size: 15px;
   margin: 0px;
-} */
+}
 
-/* header a {
+header a {
   color: rgb(234, 154, 39);
   text-decoration: none;
   font-size: 15px;
   margin: 0px;
   transition: color 1s, font-size 1s;
-} */
-/* nav ul li a:hover {
+}
+nav ul li a:hover {
   color: rgb(222, 215, 196);
   font-size: 16px;
-} */
+}
 
 /* ---Fin grid Header--- */
 
@@ -164,8 +164,66 @@ footer h4 {
   position: relative;
   bottom: 30px;
 }
-/* ---Fin Footer--- */
 /* -------------------Fin grid Footer--- */
+
+/* Fin grid index------------------------------------ */
+
+/* Inicio grid about------------------------- */
+
+/* .gridAbout {
+  display: grid;
+  grid-template-areas:
+    "headerA"
+    "mainA"
+    "company"
+    "acknowledgments"
+    "footerG";
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, 1fr);
+  row-gap: 10px;
+}
+.borderG {
+  border: 2px solid;
+  color: black;
+}
+.headerAbout{
+  grid-area: headerA;
+}
+
+.mainAbout{
+  grid-area: mainA;
+}
+#AboutCompany{
+  grid-area: company;
+}
+#acknowledgments{
+  grid-area: acknowledgments;
+}
+.footerAbout {
+  grid-area: footerG;
+}
+.footerAbout .footerList {
+  display: flex;
+  list-style-type: none;
+  color: rgb(222, 215, 196);
+  background-color: rgb(0, 0, 0);
+  border-bottom: 03px solid rgb(234, 154, 39);
+  border-radius: 10px;
+  padding: 15px;
+}
+.footerAbout a {
+  position: relative;
+  top: 20px;
+  right: 300px;
+  margin: 5px;
+}
+.footerAbout h4 {
+  position: relative;
+  bottom: 30px;
+} */
+/* Fin grid about---------------------------- */
+
+
 
 /* ------Inicio Grid Galeery---- */
 .gridGallery {
@@ -318,7 +376,7 @@ footer h4 {
     width: 70%;
     position: absolute;
     right: 260px;
-    top: 800px;
+    top: 80px;
   }
 }
 /* Fin responsive para desktop---------------------- */
