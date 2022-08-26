@@ -23,12 +23,16 @@ header .logo {
   padding-bottom: 20px;
 }
 
-
-
 main img {
   margin-top: 10px;
   border-radius: 10px;
   border-style: solid;
+}
+main #InfoProduct {
+  background-color: rgb(234, 154, 39);
+  margin-top: 10px;
+  border-radius: 10px;
+  height: 165px;
 }
 .slogan {
   color: rgb(0, 0, 0);
@@ -86,7 +90,12 @@ main form {
 
 header {
   grid-area: header;
-  background-image: linear-gradient(to bottom, rgb(234, 154, 39), rgb(0, 0, 0), rgb(0, 0, 0));
+  background-image: linear-gradient(
+    to bottom,
+    rgb(234, 154, 39),
+    rgb(0, 0, 0),
+    rgb(0, 0, 0)
+  );
   border-bottom: 03px solid rgb(234, 154, 39);
   padding: 26px;
   border-radius: 10px;
@@ -223,8 +232,6 @@ footer h4 {
 } */
 /* Fin grid about---------------------------- */
 
-
-
 /* ------Inicio Grid Galeery---- */
 .gridGallery {
   display: grid;
@@ -320,11 +327,10 @@ footer h4 {
       "footerG footerG";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 150px 200px 200px 200px 200px 100px;
-    row-gap: 10px; 
+    row-gap: 10px;
   }
 }
 /* Fin responsive para tableta vertical------------------------ */
-
 
 /* responsive tableta horizontal--------------- */
 @media screen and (min-width: 600px) and (orientation: landscape) {
