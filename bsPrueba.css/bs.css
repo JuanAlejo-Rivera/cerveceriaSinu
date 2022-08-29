@@ -57,6 +57,17 @@ nav ul li a:hover {
   color: rgb(222, 215, 196);
   font-size: 16px;
 }
+
+.slogan {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-size: 40px;
+    font-weight: 900;
+    top: 300px;
+    left: 100px;
+    font-family: Libre + Baskerville;
+  }
+
 /* Fin header */
 
 /* Parrafo de productos---- */
