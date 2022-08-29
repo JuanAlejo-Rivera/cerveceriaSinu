@@ -1,4 +1,5 @@
 /* Menu hamburguesa vista mobile por debajo de 600px */
+/* header */
 body {
   background-image: url(../images/logosinu.png);
   background-size: cover;
@@ -56,3 +57,103 @@ nav ul li a:hover {
   color: rgb(222, 215, 196);
   font-size: 16px;
 }
+/* Fin header */
+
+/* Parrafo de productos */
+main #InfoProduct {
+    background-color: rgb(234, 154, 39);
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 190px;
+  }
+  /* Fin Parrafo de productos */
+
+
+/* Footer */
+
+footer {
+  color: rgb(222, 215, 196);
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  border-bottom: 03px solid rgb(234, 154, 39);
+}
+footer h4 {
+  font-size: 16px;
+}
+footer li {
+  display: flex;
+  list-style: none;
+}
+footer a{
+padding: 5px;
+}
+
+
+
+/* Fin footer */
+
+/* Formulario de contacto */
+main form {
+    position: relative;
+    text-align: center;
+    left: 40%;
+    top: 10px;
+    color: rgb(234, 154, 39);
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+    border-radius: 10px;
+    border-bottom: 03px solid rgb(234, 154, 39);
+    border-top: 03px solid rgb(234, 154, 39);
+    border-left: 03px solid rgb(234, 154, 39);
+    border-right: 03px solid rgb(234, 154, 39);
+  }
+  /* Fin Formulario de contacto */
+    /* -----------------------------------------------------------------------------------Grid----------------------------------------------------- */
+
+/* ------Inicio Grid Galeery---- */
+.gridGallery {
+    display: grid;
+    grid-template-areas:
+      "headerG"
+      "mainG"
+      "ph1"
+      "ph2"
+      "ph3"
+      "ph4"
+      "ph5"
+      "ph6";
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 1fr) ;
+    row-gap: 10px;
+  }
+  .borderG {
+    border: 2px solid;
+    color: black;
+  }
+  .mainGallery {
+    grid-area: mainG;
+    border: 2px solid;
+    color: black;
+  }
+  #ph1 {
+    grid-area: ph1;
+  }
+  #ph2 {
+    grid-area: ph2;
+  }
+  #ph3 {
+    grid-area: ph3;
+  }
+  #ph4 {
+    grid-area: ph4;
+  }
+  #ph5 {
+    grid-area: ph5;
+  }
+  #ph6 {
+    grid-area: ph6;
+  }
+
+    /* -----------------------------------------------------------------------------------Fin Grid----------------------------------------------------- */
+
+
