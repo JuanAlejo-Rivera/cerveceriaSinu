@@ -8,6 +8,7 @@ body {
   font-family: "Cinzel", sans-serif;
 
   overflow-x: hidden;
+  
 }
 
 header {
@@ -29,13 +30,14 @@ h2 {
   top: 20px;
   margin: auto;
   position: relative;
-  left: 27px;
+  left: px;
 }
 
 .navbar-toggler {
   position: absolute;
   background-color: rgb(234, 154, 39);
-  left: 30px;
+  left: 20px;
+  
 }
 header li {
   position: relative;
