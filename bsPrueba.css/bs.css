@@ -186,8 +186,20 @@ main form {
     left: 80px;
     font-family: Libre + Baskerville;
   }
-
 }
+/* responsive tableta horizontal--------------- */
+@media screen and (min-width: 600px) and (orientation: landscape) {
+  .slogan {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-size: 30px;
+    font-weight: 900;
+    top: 300px;
+    left: 80px;
+    font-family: Libre + Baskerville;
+  }
+}
+/* Fin responsive tableta horizontal--------------- */
 /* -----------------fin tabled------------------------- */
 /* Descktop---------------------------------------- */
 @media screen and (min-width: 1200px) {
@@ -206,7 +218,6 @@ main form {
     left: 100px;
     font-family: Libre + Baskerville;
   }
-
 }
 
 /* -----------------fin desktop------------------------- */
