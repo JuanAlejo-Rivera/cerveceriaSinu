@@ -40,7 +40,6 @@ h4 {
   border: solid rgb(0, 0, 0);
 }
 
-
 header li {
   position: relative;
   width: auto;
@@ -63,26 +62,25 @@ nav ul li a:hover {
 }
 
 .slogan {
-    color: rgb(0, 0, 0);
-    position: absolute;
-    font-size: 40px;
-    font-weight: 900;
-    top: 300px;
-    left: 100px;
-    font-family: Libre + Baskerville;
-  }
+  color: rgb(0, 0, 0);
+  position: absolute;
+  font-size: 19px;
+  font-weight: 900;
+  top: 300px;
+  left: 1px;
+  font-family: Libre + Baskerville;
+}
 
 /* Fin header */
 
 /* Parrafo de productos---- */
 main #InfoProduct {
-    background-color: rgb(234, 154, 39);
-    margin-top: 10px;
-    border-radius: 10px;
-    height: 190px;
-  }
-  /* Fin Parrafo de productos---- */
-
+  background-color: rgb(234, 154, 39);
+  margin-top: 10px;
+  border-radius: 10px;
+  height: 190px;
+}
+/* Fin Parrafo de productos---- */
 
 /* Footer */
 
@@ -99,76 +97,116 @@ footer li {
   display: flex;
   list-style: none;
 }
-footer a{
-padding: 5px;
+footer a {
+  padding: 5px;
 }
-
-
 
 /* Fin footer */
 
 /* Formulario de contacto */
 main form {
-    position: relative;
-    text-align: center;
-    left: 40%;
-    top: 10px;
-    color: rgb(234, 154, 39);
-    background-color: rgb(0, 0, 0);
-    width: 300px;
-    border-radius: 10px;
-    border-bottom: 03px solid rgb(234, 154, 39);
-    border-top: 03px solid rgb(234, 154, 39);
-    border-left: 03px solid rgb(234, 154, 39);
-    border-right: 03px solid rgb(234, 154, 39);
-  }
-  /* Fin Formulario de contacto */
-    /* -----------------------------------------------------------------------------------Grid----------------------------------------------------- */
+  position: relative;
+  text-align: center;
+  left: 40%;
+  top: 10px;
+  color: rgb(234, 154, 39);
+  background-color: rgb(0, 0, 0);
+  width: 300px;
+  border-radius: 10px;
+  border-bottom: 03px solid rgb(234, 154, 39);
+  border-top: 03px solid rgb(234, 154, 39);
+  border-left: 03px solid rgb(234, 154, 39);
+  border-right: 03px solid rgb(234, 154, 39);
+}
+/* Fin Formulario de contacto */
+/* -----------------------------------------------------------------------------------Grid----------------------------------------------------- */
 
 /* ------Inicio Grid Galeery---- */
 .gridGallery {
-    display: grid;
-    grid-template-areas:
-      "headerG"
-      "mainG"
-      "ph1"
-      "ph2"
-      "ph3"
-      "ph4"
-      "ph5"
-      "ph6";
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(8, 1fr) ;
-    row-gap: 10px;
+  display: grid;
+  grid-template-areas:
+    "headerG"
+    "mainG"
+    "ph1"
+    "ph2"
+    "ph3"
+    "ph4"
+    "ph5"
+    "ph6";
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(8, 1fr);
+  row-gap: 10px;
+}
+.borderG {
+  border: 2px solid;
+  color: black;
+}
+.mainGallery {
+  grid-area: mainG;
+  border: 2px solid;
+  color: black;
+}
+#ph1 {
+  grid-area: ph1;
+}
+#ph2 {
+  grid-area: ph2;
+}
+#ph3 {
+  grid-area: ph3;
+}
+#ph4 {
+  grid-area: ph4;
+}
+#ph5 {
+  grid-area: ph5;
+}
+#ph6 {
+  grid-area: ph6;
+}
+
+/* -----------------------------------------------------------------------------------Fin Grid----------------------------------------------------- */
+
+/* Tabled----------------------------------------- */
+@media screen and (min-width: 800px) {
+  .navbar-toggler {
+    position: absolute;
+    background-color: rgb(234, 154, 39);
+    top: 10px;
+    left: 230px;
+    font-size: 13px;
+    border: solid rgb(0, 0, 0);
   }
-  .borderG {
-    border: 2px solid;
-    color: black;
-  }
-  .mainGallery {
-    grid-area: mainG;
-    border: 2px solid;
-    color: black;
-  }
-  #ph1 {
-    grid-area: ph1;
-  }
-  #ph2 {
-    grid-area: ph2;
-  }
-  #ph3 {
-    grid-area: ph3;
-  }
-  #ph4 {
-    grid-area: ph4;
-  }
-  #ph5 {
-    grid-area: ph5;
-  }
-  #ph6 {
-    grid-area: ph6;
+  .slogan {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-size: 30px;
+    font-weight: 900;
+    top: 300px;
+    left: 80px;
+    font-family: Libre + Baskerville;
   }
 
-    /* -----------------------------------------------------------------------------------Fin Grid----------------------------------------------------- */
+}
+/* -----------------fin tabled------------------------- */
+/* Descktop---------------------------------------- */
+@media screen and (min-width: 1200px) {
+  h4 {
+    top: 20px;
+    margin: auto;
+    position: relative;
+    left: 1px;
+  }
+  .slogan {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-size: 40px;
+    font-weight: 900;
+    top: 250px;
+    left: 100px;
+    font-family: Libre + Baskerville;
+  }
 
+}
 
+/* -----------------fin desktop------------------------- */
