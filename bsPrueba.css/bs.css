@@ -66,12 +66,31 @@ nav ul li a:hover {
   position: absolute;
   font-size: 19px;
   font-weight: 900;
-  top: 300px;
+  top: 250px;
   left: 1px;
   font-family: Libre + Baskerville;
 }
 
 /* Fin header */
+
+/* main index */
+.award{
+  padding: 10px;
+}
+
+.index1{
+  background-color:rgb(234, 154, 39) ;
+  border-radius: 5px;
+  border: solid rgb(0, 0, 0);
+  font-size: 15px;
+}
+
+.newprod{
+  text-align: center;
+}
+
+
+/* fin main index */
 
 /* Parrafo de productos---- */
 main #InfoProduct {
@@ -90,14 +109,17 @@ footer {
   border-radius: 10px;
   border-bottom: 03px solid rgb(234, 154, 39);
 }
-footer h4 {
+h5 {
   font-size: 16px;
 }
+
 footer li {
   display: flex;
   list-style: none;
 }
 footer a {
+  position: relative;
+  top: 15px;
   padding: 5px;
 }
 
@@ -121,54 +143,22 @@ main form {
 /* Fin Formulario de contacto */
 /* -----------------------------------------------------------------------------------Grid----------------------------------------------------- */
 
-/* ------Inicio Grid Galeery---- */
-.gridGallery {
-  display: grid;
-  grid-template-areas:
-    "headerG"
-    "mainG"
-    "ph1"
-    "ph2"
-    "ph3"
-    "ph4"
-    "ph5"
-    "ph6";
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(8, 1fr);
-  row-gap: 10px;
-}
-.borderG {
-  border: 2px solid;
-  color: black;
-}
-.mainGallery {
-  grid-area: mainG;
-  border: 2px solid;
-  color: black;
-}
-#ph1 {
-  grid-area: ph1;
-}
-#ph2 {
-  grid-area: ph2;
-}
-#ph3 {
-  grid-area: ph3;
-}
-#ph4 {
-  grid-area: ph4;
-}
-#ph5 {
-  grid-area: ph5;
-}
-#ph6 {
-  grid-area: ph6;
+/* Galeria de imagenes----------------------------------- */
+.Gal1{
+  background-color:rgb(234, 154, 39) ;
+  border-radius: 5px;
+  border: solid rgb(0, 0, 0);
+  font-size: 15px;
 }
 
-/* -----------------------------------------------------------------------------------Fin Grid----------------------------------------------------- */
+
+
+/* Fin Galeria de imagenes----------------------------------- */
+
+
 
 /* Tabled----------------------------------------- */
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 600px) and (orientation: portrait) {
   .navbar-toggler {
     position: absolute;
     background-color: rgb(234, 154, 39);
@@ -182,19 +172,27 @@ main form {
     position: absolute;
     font-size: 30px;
     font-weight: 900;
-    top: 300px;
-    left: 80px;
+    top: 200px;
+    left: 50px;
     font-family: Libre + Baskerville;
   }
 }
 /* responsive tableta horizontal--------------- */
 @media screen and (min-width: 600px) and (orientation: landscape) {
+  .navbar-toggler {
+    position: absolute;
+    background-color: rgb(234, 154, 39);
+    top: 10px;
+    left: 230px;
+    font-size: 13px;
+    border: solid rgb(0, 0, 0);
+  }
   .slogan {
     color: rgb(0, 0, 0);
     position: absolute;
     font-size: 30px;
     font-weight: 900;
-    top: 300px;
+    top: 200px;
     left: 80px;
     font-family: Libre + Baskerville;
   }
