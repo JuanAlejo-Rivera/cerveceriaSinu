@@ -1,5 +1,4 @@
 /* Menu hamburguesa vista mobile por debajo de 600px */
-/* header */
 body {
   background-image: url(../images/logosinu.png);
   background-size: cover;
@@ -8,7 +7,6 @@ body {
   font-family: "Cinzel", sans-serif;
 
   overflow-x: hidden;
-  
 }
 
 header {
@@ -26,19 +24,23 @@ header {
   padding: 5px;
   border-radius: 10px;
 }
-h2 {
+h4 {
   top: 20px;
   margin: auto;
   position: relative;
-  left: px;
+  left: 60px;
 }
 
 .navbar-toggler {
   position: absolute;
   background-color: rgb(234, 154, 39);
-  left: 20px;
-  
+  top: 10px;
+  left: 145px;
+  font-size: 13px;
+  border: solid rgb(0, 0, 0);
 }
+
+
 header li {
   position: relative;
   width: auto;
