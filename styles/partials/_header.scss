@@ -1,0 +1,23 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+    h1{
+        font-family: ceil($number: 0)
+    };
+}
+
+body {
+    background-color: aqua;
+  }
+  
+  li {
+    background-color: aqua;
+  }
+  li a {
+    color: antiquewhite;
+    transition: 0.5s;
+  }
+  li a:hover {
+    color: red;
+  }/
