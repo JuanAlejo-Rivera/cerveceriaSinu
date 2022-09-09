@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shorcut icon" href="../images/logosinu.png">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="./styles/reset.css">
@@ -16,76 +20,88 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Overpass:wght@100&family=Roboto&family=Roboto+Slab:wght@100;300&family=Volkhov&display=swap"
         rel="stylesheet">
-
+        <meta name="Description" content = " Comprueba tú mismo el compromiso que tenemos con nuestra compañía, nuestros productos y clientes"> 
+        <meta name="Keywords" content="cerveza, artesanal, calidad, natural, maestría">
     <title>Galeria - Cerveceria del valle sinú</title>
 </head>
 
 <body class="gridGallery">
+    <header class="container">
+        <div class="row">
+            <a class="col-1" href="../index.html""><img class=" logo" src="../images/logosinu-modified.png" alt="logo"
+                width="100px" height="130px"></a>
 
-    <header class="headerGallery">
-        <h2 class="titulos">
-            Galeria de imagenes
-        </h2>
-        <a href="../index.html"">
-            <img class=" logo" src="../images/logosinu-modified.png" alt="logo" width="100px" height="130px">
-        </a>
-        <nav>
-            <ul id="primeraLista" class="listas">
-                <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="./SobreNosotros.html">Sobre nosotros</a>
-                </li>
-                <li>
-                    <a href="./contacto.html">Contacto</a>
-                </li>
-                <li>
-                    Galeria
-                </li>
-                <li>
-                    <a href="./Productos.html">Productos</a>
-                </li>
-            </ul>
-        </nav>
+            <h4 class="titulos col-5">Galeria de imagenes</h4>
+            <nav class="navbar navbar-expand-lg fondo_nav col-6">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 listas">
+                            <li class="nav-item">
+                                <a href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./SobreNosotros.html">Sobre nosotros</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="./contacto.html">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                Galeria
+                            </li>
+                            <li class="nav-item">
+                                <a href="./Productos.html">Productos</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
     </header>
-
-    <main class="mainGallery">Product cover photo
-        <!-- <img src="../images/sinu1.jpeg" alt="Imagen portafolico de cervezas" width="300px" height="400px">
-        <a href="https://ennuestrocampo.co/wp-content/uploads/2022/02/CervezadelValleSinu-Panzenu.jpg" target="_blank">
-            <img src="https://ennuestrocampo.co/wp-content/uploads/2022/02/CervezadelValleSinu-Panzenu.jpg"
-                alt="Imagen portafolico de cervezas" width="350px" height="400px">
-        </a>
-        <a href="https://regioncaribe.com.co/agrosavia-y-cerveceria-del-valle-sinu-buscan-producir-cerveza-a-base-de-batata/"
-            target="_blank">
-            <img src="../images/cez.png" alt="Cerveza" width="350px" height="400px">
-        </a> -->
+    <main class="mainGallery container">
+        <div class="row">
+            <img class="col-4 img-fluid " src="../images/galeria1.png"  alt="cerveza" >
+            <p class="col-4 Gal1 img-fluid">Texto descripcion de la imagen</p>
+        </div>
+        <div class="row">
+            <p class="col-4"></p>
+            <p class="col-4 Gal1 img-fluid">Nuestra linea de cervezas</p>
+            <img class="col-4 img-fluid " src="../images/galeria2.jpeg"  alt="Nuestra linea de cervezas" >
+        </div>
+        <div class="row">
+            <img class="col-4 img-fluid " src="../images/galeria3.png"  alt="cerveza en la playa" >
+            <p class="col-4 Gal1 img-fluid">Mejor compañia para un día soleado</p>
+        </div>
     </main>
 
-        <div class="borderG" id="ph1">PH1</div>
-        <div class="borderG" id="ph2">PH2</div>
-        <div class="borderG" id="ph3">PH3</div>
-        <div class="borderG" id="ph4">PH4</div>
-        <div class="borderG" id="ph5">PH5</div>
-        <div class="borderG" id="ph6">PH6</div>
 
 
 
 
 
-    <footer id="footer" class="footerGallery">
+    <footer id="footer">
         <ul id="segundaLista" class="footerList">
-            <h4>Siguenos en todas nuestras redes</h4>
-            <li>
-                <a href="https://www.instagram.com/cerveceriadelvallesinu/?hl=es-la" target="_blank">
-                    <img src="../images/insta.png" alt="Instagram" width="30px" height="30px">
-                </a>
-                <a href="https://www.facebook.com/cerveceriadelvallesinu/" target="_blank">
-                    <img src="../images/face.png" alt="Facebook" width="30px" height="30px">
-                </a>
-            </li>
+            <h5>Siguenos en todas nuestras redes</h4>
+                <li>
+                    <a href="https://www.instagram.com/cerveceriadelvallesinu/?hl=es-la" target="_blank">
+                        <img src="../images/insta.png" alt="Instagram" width="30px" height="30px">
+                    </a>
+
+                    <a href="https://www.facebook.com/cerveceriadelvallesinu/" target="_blank">
+                        <img src="../images/face.png" alt="Facebook" width="30px" height="30px">
+                    </a>
+                </li>
         </ul>
     </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

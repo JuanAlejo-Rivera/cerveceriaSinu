@@ -1,54 +1,144 @@
+.index1 {
+  background-color: rgb(234, 154, 39);
+  border-radius: 5px;
+  border: solid rgb(0, 0, 0);
+  font-size: 15px;
+}
+
+h4 {
+  top: 20px;
+  margin: auto;
+  position: relative;
+  left: 60px;
+}
+
+header {
+  color: rgb(222, 215, 196);
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  border-bottom: 3px solid rgb(234, 143, 39);
+  background-image: linear-gradient(to bottom, rgb(234, 154, 39), rgb(0, 0, 0), rgb(5, 5, 5));
+  padding: 5px;
+  border-radius: 10px;
+}
+
 body {
   background-image: url(../images/logosinu.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left center;
   font-family: "Cinzel", sans-serif;
-
   overflow-x: hidden;
 }
 
-header .logo {
+.navbar-toggler {
   position: absolute;
-  top: 15px;
-  left: 50px;
+  background-color: rgb(234, 154, 39);
+  top: 10px;
+  left: 145px;
+  font-size: 13px;
+  border: solid rgb(0, 0, 0);
 }
 
-.titulos {
+header li {
   position: relative;
-  left: 170px;
-  color: rgb(222, 215, 196);
-  font-weight: 900;
+  width: auto;
+  list-style: none;
+  color: rgb(234, 154, 39);
   text-decoration: none;
-  padding-bottom: 20px;
+  font-size: 15px;
+  margin: 10px;
 }
 
-
-
-main img {
-  margin-top: 10px;
-  border-radius: 10px;
-  border-style: solid;
+header a {
+  color: rgb(234, 154, 39);
+  text-decoration: none;
+  font-size: 15px;
+  transition: color 1s, font-size 1s;
 }
+
+nav a:hover {
+  color: rgb(222, 215, 196);
+  font-size: 16px;
+}
+
 .slogan {
   color: rgb(0, 0, 0);
   position: absolute;
-  font-size: 40px;
+  font-size: 19px;
   font-weight: 900;
-  top: 300px;
-  left: 100px;
-  font-family: Libre + Baskerville;
+  top: 250px;
+  left: 1px;
+  font-family: LibreBaskerville;
 }
 
-/* ---------SOBRENOSOTROS------ */
-.abaut {
-  color: rgb(0, 0, 0);
-  font-size: 40px;
-  font-weight: 900;
-  font-family: Libre + Baskerville;
+@media screen and (min-width: 600px) and (orientation: landscape) {
+  .navbar-toggler {
+    position: absolute;
+    background-color: rgb(234, 154, 39);
+    top: 10px;
+    left: 230px;
+    font-size: 13px;
+    border: solid rgb(0, 0, 0);
+  }
+  .slogan {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-size: 30px;
+    font-weight: 900;
+    top: 200px;
+    left: 80px;
+    font-family: LibreBaskerville;
+  }
+}
+/* Descktop---------------------------------------- */
+@media screen and (min-width: 1200px) {
+  h4 {
+    top: 20px;
+    margin: auto;
+    position: relative;
+    left: 1px;
+  }
+  .slogan {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-size: 40px;
+    font-weight: 900;
+    top: 250px;
+    left: 100px;
+    font-family: LibreBaskerville;
+  }
+}
+footer {
+  color: rgb(222, 215, 196);
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  border-bottom: 3px solid rgb(234, 143, 39);
 }
 
-/* --------------CONTACTO-------------  */
+h5 {
+  font-size: 16px;
+}
+
+footer li {
+  display: flex;
+  list-style: none;
+}
+
+footer a {
+  position: relative;
+  top: 15px;
+  padding: 5px;
+}
+
+.award {
+  padding: 10px;
+}
+
+.newprod {
+  text-align: center;
+}
+
 main form {
   position: relative;
   text-align: center;
@@ -56,102 +146,26 @@ main form {
   top: 10px;
   color: rgb(234, 154, 39);
   background-color: rgb(0, 0, 0);
-  width: 200px;
+  width: 300px;
   border-radius: 10px;
-  border-bottom: 03px solid rgb(234, 154, 39);
-  border-top: 03px solid rgb(234, 154, 39);
-  border-left: 03px solid rgb(234, 154, 39);
-  border-right: 03px solid rgb(234, 154, 39);
-}
-/* Inicio grid index------------------------------ */
-.grid {
-  display: grid;
-  grid-template-areas:
-    "header header header"
-    "main main main"
-    "article article article"
-    "promotios promotios promotios"
-    "new_products new_products new_products"
-    "footer footer footer";
-  grid-template-columns: 20% auto 15%;
-  grid-template-rows: 145px 715px 400px 300px 300px 105px;
-  row-gap: 10px;
+  border-bottom: 3px solid rgb(234, 154, 39);
+  border-top: 3px solid rgb(234, 154, 39);
+  border-left: 3px solid rgb(234, 154, 39);
+  border-right: 3px solid rgb(234, 154, 39);
 }
 
-.border {
-  border: 2px solid;
-  color: black;
-}
-/* ---Inicio grid Header--- */
-
-header {
-  grid-area: header;
-  background-image: linear-gradient(to bottom, rgb(234, 154, 39), rgb(0, 0, 0), rgb(0, 0, 0));
-  border-bottom: 03px solid rgb(234, 154, 39);
-  padding: 26px;
-  border-radius: 10px;
-}
-
-header nav {
-  width: 50%;
-  position: absolute;
-  right: 495px;
-  top: 80px;
-}
-
-header .listas {
-  display: flex;
-  justify-content: space-evenly;
-  padding-right: 1px;
-}
-
-header li {
-  display: none;
-  width: auto;
-  list-style: none;
-  color: rgb(234, 154, 39);
-  text-decoration: none;
+.Gal1 {
+  background-color: rgb(234, 154, 39);
+  border-radius: 5px;
+  border: solid rgb(0, 0, 0);
   font-size: 15px;
-  margin: 0px;
 }
 
-header a {
-  color: rgb(234, 154, 39);
-  text-decoration: none;
-  font-size: 15px;
-  margin: 0px;
-  transition: color 1s, font-size 1s;
-}
-nav ul li a:hover {
-  color: rgb(222, 215, 196);
-  font-size: 16px;
-}
-
-/* ---Fin grid Header--- */
-
-main {
-  grid-area: main;
-}
-#news {
-  grid-area: article;
-}
-#promotions {
-  grid-area: promotios;
-}
-#new_products {
-  grid-area: new_products;
-}
-/* ---Inicio grid Footer--- */
-footer {
-  grid-area: footer;
-}
-footer .footerList {
-  display: flex;
-  list-style-type: none;
-  color: rgb(222, 215, 196);
-  background-color: rgb(0, 0, 0);
-  border-bottom: 03px solid rgb(234, 154, 39);
+main #InfoProduct {
+  background-color: rgb(234, 154, 39);
+  margin-top: 10px;
   border-radius: 10px;
+<<<<<<< HEAD
   padding: 15px;
 }
 footer a {
@@ -380,3 +394,7 @@ footer h4 {
   }
 }
 /* Fin responsive para desktop---------------------- */
+=======
+  height: 190px;
+}/*# sourceMappingURL=styles.css.map */
+>>>>>>> sassll

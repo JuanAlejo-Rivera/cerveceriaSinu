@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shorcut icon" href="../images/logosinu.png">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="./styles/reset.css">
@@ -16,9 +20,12 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Overpass:wght@100&family=Roboto&family=Roboto+Slab:wght@100;300&family=Volkhov&display=swap"
         rel="stylesheet">
+        <meta name="Description" content = "Conoce toda nuestra gama de productos y sus especificaciones"> 
+        <meta name="Keywords" content="cerveza, artesanal, calidad, natural, maestría">
     <title>Productos - Cerveceria del valle sinú</title>
 </head>
 
+<<<<<<< HEAD
 <body class="gridProduct">
     <!-- Tabala -->
     <header>
@@ -29,70 +36,103 @@
             <img class=" logo" src="../images/logosinu-modified.png" alt="logo" width="100px" height="130px">
         </a>
         <nav>
+=======
+<body>
+    <header class="container">
+        <div class="row">
+            <a class="col-1" href="../index.html""><img class=" logo" src="../images/logosinu-modified.png" alt="logo"
+                width="100px" height="130px"></a>
+>>>>>>> sassll
 
-            <ul id="primeraLista" class="listas">
-                <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="./SobreNosotros.html">Sobre nosotros</a>
-                </li>
-                <li> 
-                    <a href="./contacto.html">Contacto</a>
-                </li>
-                <li>
-                    <a href="./galeria.html">Galeria</a>
-                </li>
-                <li>
-                    Productos
-                </li>
-            </ul>
+            <h4 class="titulos col-5">Productos</h4>
+            <nav class="navbar navbar-expand-lg fondo_nav col-6">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 listas">
+                            <li class="nav-item">
+                                <a href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./SobreNosotros.html">Sobre nosotros</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="./contacto.html">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./galeria.html">Galeria</a>
+                            </li>
+                            <li class="nav-item">
+                                Productos
+                            </li>
+                        </ul>
 
-        </nav>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </header>
-    <table border="1px solid" cellpadding="5px" cellspacing="5px">
-        <tr>
-            <th>Prodcuto</th>
-            <th>Precio unidades</th>
-            <th>Precio six pack</th>
-        </tr>
-        <tr>
-            <td>Mestiza zenú</td>
-            <td>$8.000</td>
-            <td>$35.000</td>
 
-        </tr>
-        <tr>
-            <td>Anthophila</td>
-            <td>$8.000</td>
-            <td>$35.000</td>
-        </tr>
-        <tr>
-            <td>Hornet</td>
-            <td>$8.000</td>
-            <td>$35.000</td>
-        </tr>
-        <tr>
-            <td>Mestiza panzenú</td>
-            <td>$8.000</td>
-            <td>$35.000</td>
-        </tr>
-    </table>
-
+    <main class="container">
+        <div class="row">
+            <p class="col-4" id="InfoProduct">Con la idea de mezclar lo tradicional con lo moderno tomamos los mejores y mas tradicionales ingredientes nativos del valle sinu para producir diversas cervezas con los más altos estándares de calidad, ideal para el consumidor de hoy, que busca una cerveza con cuerpo y diversas tonalidades </p>
+            <div id="carouselExampleControls" class="carousel slide col-8" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../images/dsg.png" class="d-block " alt="cerveza anthophila">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/hornet.png" class="d-block " alt="cerveza hotnet">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/mestiza.png" class="d-block " alt="cerveza mestiza">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/otra.png" class="d-block " alt="cerveza Zenu">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/sg.png" class="d-block " alt="Todas nuestras cervezas">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/panzenu.png" class="d-block " alt="cerveza panzenu">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </main>
 
     <footer id="footer">
         <ul id="segundaLista" class="footerList">
+            <h5>Siguenos en todas nuestras redes</h4>
             <li>
-                <h4>Siguenos en todas nuestras redes</h4>
                 <a href="https://www.instagram.com/cerveceriadelvallesinu/?hl=es-la" target="_blank">
                     <img src="../images/insta.png" alt="Instagram" width="30px" height="30px">
                 </a>
+     
                 <a href="https://www.facebook.com/cerveceriadelvallesinu/" target="_blank">
                     <img src="../images/face.png" alt="Facebook" width="30px" height="30px">
                 </a>
             </li>
         </ul>
     </footer>
+    <!-- JavaScript Bundle with Popper --->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
