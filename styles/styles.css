@@ -1,10 +1,15 @@
-body {
-  background-image: url(../images/logosinu.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: left center;
-  font-family: "Cinzel", sans-serif;
-  overflow-x: hidden;
+.index1 {
+  background-color: rgb(234, 154, 39);
+  border-radius: 5px;
+  border: solid rgb(0, 0, 0);
+  font-size: 15px;
+}
+
+h4 {
+  top: 20px;
+  margin: auto;
+  position: relative;
+  left: 60px;
 }
 
 header {
@@ -17,11 +22,13 @@ header {
   border-radius: 10px;
 }
 
-h4 {
-  top: 20px;
-  margin: auto;
-  position: relative;
-  left: 60px;
+body {
+  background-image: url(../images/logosinu.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left center;
+  font-family: "Cinzel", sans-serif;
+  overflow-x: hidden;
 }
 
 .navbar-toggler {
@@ -126,13 +133,6 @@ footer a {
 
 .award {
   padding: 10px;
-}
-
-.index1 {
-  background-color: rgb(234, 154, 39);
-  border-radius: 5px;
-  border: solid rgb(0, 0, 0);
-  font-size: 15px;
 }
 
 .newprod {

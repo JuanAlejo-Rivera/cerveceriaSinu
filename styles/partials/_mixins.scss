@@ -1,0 +1,7 @@
+@mixin footerGeneral($bgColor, $color, $borderColor) {
+    color: $color;
+    background-color: $bgColor;
+    border-radius: 10px;
+    border-bottom: $borderColor;
+}
+
