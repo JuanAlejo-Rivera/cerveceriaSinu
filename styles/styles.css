@@ -165,7 +165,6 @@ main #InfoProduct {
   background-color: rgb(234, 154, 39);
   margin-top: 10px;
   border-radius: 10px;
-<<<<<<< HEAD
   padding: 15px;
 }
 footer a {
@@ -394,7 +393,3 @@ footer h4 {
   }
 }
 /* Fin responsive para desktop---------------------- */
-=======
-  height: 190px;
-}/*# sourceMappingURL=styles.css.map */
->>>>>>> sassll
