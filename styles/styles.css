@@ -9,7 +9,7 @@ h4 {
   top: 20px;
   margin: auto;
   position: relative;
-  left: 60px;
+  left: 65px;
 }
 
 header {
@@ -35,7 +35,7 @@ body {
   position: absolute;
   background-color: rgb(234, 154, 39);
   top: 10px;
-  left: 145px;
+  left: 140px;
   font-size: 13px;
   border: solid rgb(0, 0, 0);
 }
@@ -91,6 +91,25 @@ nav a:hover {
     font-family: LibreBaskerville;
   }
 }
+@media screen and (min-width: 700px) {
+  .navbar-toggler {
+    position: absolute;
+    background-color: rgb(234, 154, 39);
+    top: 10px;
+    left: 220px;
+    font-size: 13px;
+    border: solid rgb(0, 0, 0);
+  }
+  .slogan {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-size: 30px;
+    font-weight: 900;
+    top: 200px;
+    left: 80px;
+    font-family: LibreBaskerville;
+  }
+}
 /* Descktop---------------------------------------- */
 @media screen and (min-width: 1200px) {
   h4 {
@@ -127,8 +146,19 @@ footer li {
 
 footer a {
   position: relative;
-  top: 15px;
+  top: 0px;
   padding: 5px;
+}
+
+footer li i {
+  font-size: 30px;
+  color: rgb(234, 143, 39);
+  transition: color 1s, font-size 1s;
+}
+
+footer li i:hover {
+  font-size: 35px;
+  color: rgb(222, 215, 196);
 }
 
 .award {
@@ -139,10 +169,27 @@ footer a {
   text-align: center;
 }
 
+#carouselExampleControls {
+  left: 0px;
+}
+
+main #InfoProduct {
+  background-color: rgb(234, 154, 39);
+  margin-top: 10px;
+  border-radius: 10px;
+  height: 190px;
+}
+
+/* Descktop---------------------------------------- */
+@media screen and (min-width: 1200px) {
+  #carouselExampleControls {
+    left: 200px;
+  }
+}
 main form {
   position: relative;
   text-align: center;
-  left: 40%;
+  left: 15%;
   top: 10px;
   color: rgb(234, 154, 39);
   background-color: rgb(0, 0, 0);
@@ -152,18 +199,24 @@ main form {
   border-top: 3px solid rgb(234, 154, 39);
   border-left: 3px solid rgb(234, 154, 39);
   border-right: 3px solid rgb(234, 154, 39);
+  margin: 20px;
 }
 
+@media screen and (min-width: 800px) {
+  main form {
+    left: 30%;
+    top: 10px;
+  }
+}
+@media screen and (min-width: 600px) and (orientation: landscape) {
+  main form {
+    left: 40%;
+    top: 10px;
+  }
+}
 .Gal1 {
   background-color: rgb(234, 154, 39);
   border-radius: 5px;
   border: solid rgb(0, 0, 0);
   font-size: 15px;
-}
-
-main #InfoProduct {
-  background-color: rgb(234, 154, 39);
-  margin-top: 10px;
-  border-radius: 10px;
-  height: 190px;
 }/*# sourceMappingURL=styles.css.map */

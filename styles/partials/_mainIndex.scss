@@ -9,3 +9,28 @@
 .newprod{
   text-align: center;
 }
+
+
+// Carrucel de productos main
+#carouselExampleControls{
+  left: 0px;
+}
+
+
+main #InfoProduct {
+  background-color: rgb(234, 154, 39);
+  margin-top: 10px;
+  border-radius: 10px;
+  height: 190px;
+}
+// Fin carrucel de productos main
+
+
+
+  /* Descktop---------------------------------------- */
+  @media screen and (min-width: 1200px) {
+    #carouselExampleControls{
+      left: 200px;
+    }
+  
+  }

@@ -20,7 +20,7 @@ h4 {
   position: absolute;
   background-color: rgb(234, 154, 39);
   top: 10px;
-  left: 145px;
+  left: 140px;
   font-size: 13px;
   border: solid rgb(0, 0, 0);
 }
@@ -78,6 +78,28 @@ nav {
     background-color: rgb(234, 154, 39);
     top: 10px;
     left: 230px;
+    font-size: 13px;
+    border: solid rgb(0, 0, 0);
+  }
+
+  .slogan {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-size: 30px;
+    font-weight: 900;
+    top: 200px;
+    left: 80px;
+    font-family: Libre + Baskerville;
+  }
+}
+
+
+@media screen and (min-width: 700px){
+  .navbar-toggler {
+    position: absolute;
+    background-color: rgb(234, 154, 39);
+    top: 10px;
+    left: 220px;
     font-size: 13px;
     border: solid rgb(0, 0, 0);
   }
