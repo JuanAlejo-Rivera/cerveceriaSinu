@@ -226,6 +226,7 @@ main form {
 .Gal1 {
   background-color: rgb(234, 154, 39);
   border-radius: 5px;
+  text-align: center;
   border: solid rgb(0, 0, 0);
   font-size: 15px;
 }
