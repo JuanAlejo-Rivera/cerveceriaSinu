@@ -24,8 +24,14 @@ transition: color 1s, font-size 1s;
   }
 }
 
+.news{
+  text-align: center;
+  margin-top: 50px;
+}
+
 .newprod{
   text-align: center;
+  margin-top: 20px;
 }
 
 h3.New1{
@@ -37,25 +43,44 @@ h3.New1{
 
 
 // Carrucel de productos main
+
+
+main #InfoProduct {
+  margin: auto;
+}
+
 #carouselExampleControls{
-  left: 0px;
+  left: 80px;
+  margin-top: 15px;
 }
 
 
-// main #InfoProduct {
-//   background-color: rgb(234, 154, 39);
-//   margin-top: 10px;
-//   border-radius: 10px;
-//   height: 190px;
-// }
 // Fin carrucel de productos main
 
+
+.ProductosN{
+  background-color: aqua;
+}
 
 
   /* Descktop---------------------------------------- */
   @media screen and (min-width: 1200px) {
     #carouselExampleControls{
-      left: 200px;
+      left: 0px;
     }
+  }
+
+
+  @media screen and (min-width: 800px) {
+    #carouselExampleControls{
+      left: 0px;
+    }
+  }
+
+
   
+  @media screen and (min-width: 700px) {
+    #carouselExampleControls{
+      left: 0px;
+    }
   }

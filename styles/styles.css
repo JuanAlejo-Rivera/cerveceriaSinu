@@ -175,8 +175,14 @@ footer li i:hover {
   font-size: 18px;
 }
 
+.news {
+  text-align: center;
+  margin-top: 50px;
+}
+
 .newprod {
   text-align: center;
+  margin-top: 20px;
 }
 
 h3.New1 {
@@ -185,14 +191,33 @@ h3.New1 {
   margin: 20px;
 }
 
+main #InfoProduct {
+  margin: auto;
+}
+
 #carouselExampleControls {
-  left: 0px;
+  left: 80px;
+  margin-top: 15px;
+}
+
+.ProductosN {
+  background-color: aqua;
 }
 
 /* Descktop---------------------------------------- */
 @media screen and (min-width: 1200px) {
   #carouselExampleControls {
-    left: 200px;
+    left: 0px;
+  }
+}
+@media screen and (min-width: 800px) {
+  #carouselExampleControls {
+    left: 0px;
+  }
+}
+@media screen and (min-width: 700px) {
+  #carouselExampleControls {
+    left: 0px;
   }
 }
 main form {
@@ -240,6 +265,7 @@ h3.nosotros {
   background-color: rgb(234, 154, 39);
   border-radius: 5px;
   border: solid rgb(0, 0, 0);
+  margin: auto;
 }
 
 .award {
@@ -261,8 +287,14 @@ h3.nosotros {
   font-size: 18px;
 }
 
+.news {
+  text-align: center;
+  margin-top: 50px;
+}
+
 .newprod {
   text-align: center;
+  margin-top: 20px;
 }
 
 h3.New1 {
@@ -271,13 +303,32 @@ h3.New1 {
   margin: 20px;
 }
 
+main #InfoProduct {
+  margin: auto;
+}
+
 #carouselExampleControls {
-  left: 0px;
+  left: 80px;
+  margin-top: 15px;
+}
+
+.ProductosN {
+  background-color: aqua;
 }
 
 /* Descktop---------------------------------------- */
 @media screen and (min-width: 1200px) {
   #carouselExampleControls {
-    left: 200px;
+    left: 0px;
+  }
+}
+@media screen and (min-width: 800px) {
+  #carouselExampleControls {
+    left: 0px;
+  }
+}
+@media screen and (min-width: 700px) {
+  #carouselExampleControls {
+    left: 0px;
   }
 }/*# sourceMappingURL=styles.css.map */
