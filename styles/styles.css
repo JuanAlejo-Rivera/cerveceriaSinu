@@ -2,7 +2,7 @@
   background-color: rgb(234, 154, 39);
   border-radius: 5px;
   border: solid rgb(0, 0, 0);
-  font-size: 21px;
+  font-size: 13px;
 }
 
 h4 {
@@ -156,6 +156,10 @@ footer li i:hover {
   color: rgb(222, 215, 196);
 }
 
+#catalogo {
+  border-radius: 20px;
+}
+
 .award {
   padding: 10px;
 }
@@ -178,9 +182,11 @@ footer li i:hover {
 .news {
   text-align: center;
   margin-top: 50px;
+  color: rgb(255, 255, 255);
 }
 
 .newprod {
+  color: rgb(255, 255, 255);
   text-align: center;
   margin-top: 20px;
 }
@@ -188,6 +194,14 @@ footer li i:hover {
 h3.New1 {
   text-align: center;
   top: 1px;
+  margin: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.Noticias {
+  background-color: rgb(0, 0, 0);
+  border-radius: 20px;
+  border: solid rgb(234, 154, 39);
   margin: 20px;
 }
 
@@ -201,7 +215,10 @@ main #InfoProduct {
 }
 
 .ProductosN {
-  background-color: aqua;
+  background-color: rgb(0, 0, 0);
+  border-radius: 20px;
+  border: solid rgb(234, 154, 39);
+  margin: 20px;
 }
 
 /* Descktop---------------------------------------- */
@@ -218,6 +235,10 @@ main #InfoProduct {
 @media screen and (min-width: 700px) {
   #carouselExampleControls {
     left: 0px;
+    bottom: 14px;
+  }
+  .index1 {
+    font-size: 17px;
   }
 }
 main form {
@@ -268,6 +289,10 @@ h3.nosotros {
   margin: auto;
 }
 
+#catalogo {
+  border-radius: 20px;
+}
+
 .award {
   padding: 10px;
 }
@@ -290,9 +315,11 @@ h3.nosotros {
 .news {
   text-align: center;
   margin-top: 50px;
+  color: rgb(255, 255, 255);
 }
 
 .newprod {
+  color: rgb(255, 255, 255);
   text-align: center;
   margin-top: 20px;
 }
@@ -300,6 +327,14 @@ h3.nosotros {
 h3.New1 {
   text-align: center;
   top: 1px;
+  margin: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.Noticias {
+  background-color: rgb(0, 0, 0);
+  border-radius: 20px;
+  border: solid rgb(234, 154, 39);
   margin: 20px;
 }
 
@@ -313,7 +348,10 @@ main #InfoProduct {
 }
 
 .ProductosN {
-  background-color: aqua;
+  background-color: rgb(0, 0, 0);
+  border-radius: 20px;
+  border: solid rgb(234, 154, 39);
+  margin: 20px;
 }
 
 /* Descktop---------------------------------------- */
@@ -330,5 +368,9 @@ main #InfoProduct {
 @media screen and (min-width: 700px) {
   #carouselExampleControls {
     left: 0px;
+    bottom: 14px;
+  }
+  .index1 {
+    font-size: 17px;
   }
 }/*# sourceMappingURL=styles.css.map */
