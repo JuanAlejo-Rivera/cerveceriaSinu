@@ -3,6 +3,7 @@
   border-radius: 5px;
   border: solid rgb(0, 0, 0);
   font-size: 13px;
+  margin: auto;
 }
 
 h4 {
@@ -162,6 +163,7 @@ footer li i:hover {
 
 .award {
   padding: 10px;
+  border-radius: 20px;
 }
 
 .index1 a {
@@ -203,6 +205,13 @@ h3.New1 {
   border-radius: 20px;
   border: solid rgb(234, 154, 39);
   margin: 20px;
+}
+
+#new_products {
+  background-color: rgb(0, 0, 0);
+  margin: 10px;
+  border-radius: 20px;
+  border: solid rgb(234, 154, 39);
 }
 
 main #InfoProduct {
@@ -242,27 +251,37 @@ main #InfoProduct {
   }
 }
 main form {
-  position: relative;
   text-align: center;
-  left: 22%;
-  top: 10px;
-  margin: 20px;
   color: rgb(234, 154, 39);
   background-color: rgb(0, 0, 0);
   border-radius: 10px;
   border: solid rgb(234, 154, 39);
 }
 
-@media screen and (min-width: 800px) {
-  main form {
-    left: 30%;
-    top: 10px;
-  }
+.locat {
+  background-color: rgb(0, 0, 0);
+  margin-top: 10px;
+  border: solid rgb(234, 154, 39);
+  border-radius: 10px;
 }
-@media screen and (min-width: 600px) and (orientation: landscape) {
-  main form {
-    left: 40%;
-    top: 10px;
+
+.textLoc {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.imgloc {
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 390px) {
+  .formulario {
+    position: relative;
+    left: 100px;
+  }
+  .locat {
+    position: relative;
+    left: 85px;
   }
 }
 .Gal1 {
@@ -278,11 +297,11 @@ h3.nosotros {
   font-size: 25px;
 }
 
-.abaut {
-  background-color: rgb(234, 154, 39);
-  border-radius: 5px;
-  border: solid rgb(0, 0, 0);
-  margin: auto;
+#Sobre {
+  background-color: rgb(0, 0, 0);
+  border-radius: 20px;
+  border: solid rgb(234, 154, 39);
+  margin: 20px;
 }
 
 #catalogo {
@@ -291,6 +310,7 @@ h3.nosotros {
 
 .award {
   padding: 10px;
+  border-radius: 20px;
 }
 
 .index1 a {
@@ -332,6 +352,13 @@ h3.New1 {
   border-radius: 20px;
   border: solid rgb(234, 154, 39);
   margin: 20px;
+}
+
+#new_products {
+  background-color: rgb(0, 0, 0);
+  margin: 10px;
+  border-radius: 20px;
+  border: solid rgb(234, 154, 39);
 }
 
 main #InfoProduct {
