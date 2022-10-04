@@ -59,16 +59,16 @@ nav a:hover {
 }
 
 .slogan {
-  color: rgb(0, 0, 0);
+  color: rgb(248, 248, 248);
   position: absolute;
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 900;
-  top: 250px;
-  left: 1px;
+  top: 160px;
+  left: 30px;
   font-family: LibreBaskerville;
 }
 
-@media screen and (min-width: 600px) and (orientation: landscape) {
+@media screen and (min-width: 600px) {
   .navbar-toggler {
     position: absolute;
     background-color: rgb(234, 154, 39);
@@ -78,12 +78,12 @@ nav a:hover {
     border: solid rgb(0, 0, 0);
   }
   .slogan {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     position: absolute;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 900;
-    top: 200px;
-    left: 80px;
+    top: 170px;
+    left: 100px;
     font-family: LibreBaskerville;
   }
 }
@@ -97,12 +97,23 @@ nav a:hover {
     border: solid rgb(0, 0, 0);
   }
   .slogan {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 20px;
+    font-weight: 900;
+    top: 180px;
+    left: 120px;
+    font-family: LibreBaskerville;
+  }
+}
+@media screen and (min-width: 800px) {
+  .slogan {
+    color: rgb(255, 255, 255);
     position: absolute;
     font-size: 30px;
     font-weight: 900;
     top: 200px;
-    left: 80px;
+    left: 150px;
     font-family: LibreBaskerville;
   }
 }
@@ -115,13 +126,16 @@ nav a:hover {
     left: 1px;
   }
   .slogan {
-    color: rgb(0, 0, 0);
-    position: absolute;
-    font-size: 40px;
-    font-weight: 900;
-    top: 250px;
-    left: 100px;
-    font-family: LibreBaskerville;
+    font-size: 50px;
+    top: 240px;
+    left: 150px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .slogan {
+    font-size: 50px;
+    top: 240px;
+    left: 270px;
   }
 }
 footer {
